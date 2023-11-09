@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    height: 70px;
+    /* outline: solid 2px red; */
+    width: 220px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+    margin: 10px;
+    height: 50px;
+    background-color: #366198;
+    border-radius: 10px;
+    border: 2px solid #366198;
+    color: #FFF;
+    
+}
+
+li{
+    list-style: none;
+    margin: 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    /* outline: solid 2px red; */
+}
+.hero {
+    /* outline: solid 2px red; */
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroB {
+    margin: 10px;
+    height: 50px;
+    background-color: #366198;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+} 
+
+.cards {
+    /* outline: solid 2px red; */
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.card1 {
+    /* outline: solid 2px red; */
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.titleC{
+    height: 10%;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.carP {
+    height: 50%;
+    /* outline: solid 2px red; */
+    width: 100%;
+    background-image: url("../images/car_card.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discrip {
+    height: 30%;
+    /* outline: solid 2px red; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cards button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #366198;
+    border: 2px solid #FFF;
+    color: #FFF;
+    height: 30px;
+    width: 80px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.rentalPrices {
+    outline: solid 2px red;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
