@@ -420,7 +420,7 @@ footer {
 
     }
 
-    ul {
+    header ul {
         display: none;
         align-items: center;
         justify-content: center;
@@ -482,6 +482,13 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    footer ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%
     }
 
 
