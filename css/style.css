@@ -4,7 +4,6 @@ body {
 
 .logo {
     height: 50px;
-    /* /* outline: solid 2px red; */ */
     width: 10%;
     margin: 10px;
     display: flex;
@@ -18,9 +17,9 @@ body {
 
 .hamburger {
     height: 100%;
-    width: 60px;
+    width: 50px;
     margin-left: 0;
-    /* /* outline: solid 2px red; */ */
+    /* outline: solid 2px red; */
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -98,10 +97,10 @@ header {
     min-height: 50px;
     z-index: 100;
 
-    /* /* outline: solid 2px red; */ */
+     /* outline: solid 2px red; */
 }
 .hero {
-    /* /* outline: solid 2px red; */ */
+    /* outline: solid 2px red; */
     width: 100%;
     height: 75vh;
     display: flex;
@@ -127,7 +126,7 @@ header {
 }
 
 .cards {
-    /* /* outline: solid 2px red; */ */
+    /* outline: solid 2px red; */
     height: 450px;
     margin-top: 50px;
     display: flex;
@@ -137,7 +136,7 @@ header {
 }
 
 .card1 {
-    /* /* outline: solid 2px red; */ */
+    /* outline: solid 2px red; */
     height: 100%;
     width: 30%;
     display: flex;
@@ -163,7 +162,7 @@ header {
 
 .carP {
     height: 50%;
-    /* /* outline: solid 2px red; */ */
+    /* outline: solid 2px red; */
     width: 100%;
     background-image: url("../images/car_card.png");
     background-position: center;
@@ -173,7 +172,7 @@ header {
 
 .discrip {
     height: 30%;
-    /* /* outline: solid 2px red; */ */
+    /* outline: solid 2px red; */
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 10px;
@@ -198,7 +197,7 @@ header {
 /* rentalPrices */
 
 .rentalPrices {
-    /* /* outline: solid 2px red; */ */
+    /* outline: solid 2px red; */
     height: 250px;
     margin-top: 50px;
     margin-left: 25px;
@@ -338,7 +337,7 @@ transition: 0.3s;
 .facebook { display: flex;
     height: 40px;
     width: 40px;
-    /**outline: 2px solid #363333;**/
+    /*outline: 2px solid #363333;*/
     background-image: url("../images/facebook.png");
     background-position: center;
 background-repeat: no-repeat;
@@ -367,7 +366,7 @@ footer {
     }
 
     .cards {
-        /* /* outline: solid 2px red; */ */
+         /* outline: solid 2px red; */
         height: 200vh;
         width: 100%;
         margin-top: 50px;
@@ -380,7 +379,7 @@ footer {
     }
 
     .card1 {
-        /* /* outline: solid 2px red; */ */
+        /* outline: solid 2px red; */
         height: 100%;
         width: 70%;
         display: flex;
@@ -397,7 +396,7 @@ footer {
     }
 
     .rentalPrices {
-        /* /* outline: solid 2px red; */ */
+        /* outline: solid 2px red; */
         height: 100%;
         width: 100%;
         margin-top: 50px;
@@ -430,7 +429,7 @@ footer {
     .hamburger {
         height: 100%;
         width: 60px;
-        /* /* outline: solid 2px red; */ */
+        /* outline: solid 2px red; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -454,7 +453,7 @@ footer {
         min-height: 50px;
         z-index: 100;
     
-        /* /* outline: solid 2px red; */ */
+        /* outline: solid 2px red; */
     }
 
     .contact{
@@ -472,7 +471,7 @@ footer {
     }
 
     .hero {
-        /* /* outline: solid 2px red; */ */
+        /* outline: solid 2px red; */
         width: 100%;
         height: 55vh;
         display: flex;
@@ -491,8 +490,6 @@ footer {
         width: 100%
     }
 
-
-
 }
 
 
@@ -505,8 +502,8 @@ footer {
     justify-content: space-evenly;
     align-items: flex-start;
     /* outline: solid 2px red; */ 
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -518,17 +515,31 @@ footer {
     width: 100%;
     height: 30vh;
     margin: 15px;
+    border-radius: 10px;
+    border: 2px solid #366198;
+    padding: 15px;
 }
 
 .photoOfcar {
     /* outline: solid 2px red; */
     width: 30%;
     height: 100%;
+}
+
+.kia{
     background-image: url("../images/kia.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain ;
 
+}
+
+.jeep {
+
+    background-image: url("../images/jeep.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 .discription {
