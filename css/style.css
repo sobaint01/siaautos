@@ -502,8 +502,9 @@ footer {
     justify-content: space-evenly;
     align-items: flex-start;
     /* outline: solid 2px red; */ 
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 100%;
 
 }
 
@@ -537,6 +538,27 @@ footer {
 .jeep {
 
     background-image: url("../images/jeep.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.rangeRover {
+    background-image: url("../images/range_rover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.toyota {
+    background-image: url("../images/toyota.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.ford {
+    background-image: url("../images/ford.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
