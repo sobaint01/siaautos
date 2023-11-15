@@ -86,11 +86,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-left: 10px;
-    margin-right: 10px; */
+    margin-left: 0;
+    margin-right: 0; 
     margin-bottom: 25px;
     margin-top: 10px;
     height: 50px;
+    width: 100%;
     position: sticky;
     top: 0;
     background-color: #FFF;
@@ -573,6 +574,42 @@ footer {
 
 .honda {
     background-image: url("../images/honda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.hondaCivic {
+
+    background-image: url("../images/hondaC.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.tesla {
+    background-image: url("../images/tesla.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.toyotaSport {
+    background-image: url("../images/toyotaS.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.lexus {
+    background-image: url("../images/lexus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.audi {
+    background-image: url("../images/audi.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
