@@ -564,6 +564,20 @@ footer {
     background-size:contain;
 }
 
+.dodge {
+    background-image: url("../images/dodge.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.honda {
+    background-image: url("../images/honda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
 .discription {
     /* outline: solid 2px red; */
     justify-content: center;
