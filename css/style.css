@@ -358,6 +358,187 @@ footer {
     justify-content: center;
 }
 
+
+
+
+
+/* Rent a car page styling  */
+
+.inventoryList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* outline: solid 2px red; */ 
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 100%;
+
+}
+
+.carDetails{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* outline: solid 2px red; */
+    width: 100%;
+    height: 30vh;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid #366198;
+    padding: 15px;
+}
+
+.photoOfcar {
+    /* outline: solid 2px red; */
+    width: 30%;
+    height: 100%;
+}
+
+.kia{
+    background-image: url("../images/kia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;
+
+}
+
+.jeep {
+
+    background-image: url("../images/jeep.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.rangeRover {
+    background-image: url("../images/range_rover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.toyota {
+    background-image: url("../images/toyota.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.ford {
+    background-image: url("../images/ford.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.dodge {
+    background-image: url("../images/dodge.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.honda {
+    background-image: url("../images/honda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.hondaCivic {
+
+    background-image: url("../images/hondaC.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.tesla {
+    background-image: url("../images/tesla.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.toyotaSport {
+    background-image: url("../images/toyotaS.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.lexus {
+    background-image: url("../images/lexus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.audi {
+    background-image: url("../images/audi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.discription {
+    /* outline: solid 2px red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 35%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.fullStar{
+    width: 20%;
+    height: 90%;
+    /* outline: solid 2px red; */
+    display: flex;
+    background-image: url("../images/starfill.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+
+.halfStar{
+    background-image: url("../images/halfstar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 20%;
+    height: 90%;
+    display: flex;
+}
+
+.rentalRate {
+    /* outline: solid 2px red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 15%;
+}
+
+.clickToRent {
+
+    /* outline: solid 2px red; */
+    
+    width: 10%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: #366198;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+
+
 @media only screen and (max-width: 1000px) {
 
 
@@ -491,159 +672,20 @@ footer {
         width: 100%
     }
 
-}
+    .clickToRent {
+        /* outline: solid 2px red; */
+        justify-content: flex-start;
+        align-items: center;
+        width: 10%;
+        height: 20%;
+        margin-left: auto;
+        margin-right: 10px;
+        background-color: #366198;
+        border-radius: 10px;
+        border: 2px solid #FFF;
+        color: #FFF;
+    }
 
-
-
-/* Rent a car page styling  */
-
-.inventoryList{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    /* outline: solid 2px red; */ 
-    /* margin-left: 20px;
-    margin-right: 20px; */
-    width: 100%;
-
-}
-
-.carDetails{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* outline: solid 2px red; */
-    width: 100%;
-    height: 30vh;
-    margin: 15px;
-    border-radius: 10px;
-    border: 2px solid #366198;
-    padding: 15px;
-}
-
-.photoOfcar {
-    /* outline: solid 2px red; */
-    width: 30%;
-    height: 100%;
-}
-
-.kia{
-    background-image: url("../images/kia.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain ;
-
-}
-
-.jeep {
-
-    background-image: url("../images/jeep.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.rangeRover {
-    background-image: url("../images/range_rover.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.toyota {
-    background-image: url("../images/toyota.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.ford {
-    background-image: url("../images/ford.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.dodge {
-    background-image: url("../images/dodge.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.honda {
-    background-image: url("../images/honda.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.hondaCivic {
-
-    background-image: url("../images/hondaC.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.tesla {
-    background-image: url("../images/tesla.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.toyotaSport {
-    background-image: url("../images/toyotaS.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.lexus {
-    background-image: url("../images/lexus.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.audi {
-    background-image: url("../images/audi.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
-
-.discription {
-    /* outline: solid 2px red; */
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    height: 100%;
-    overflow-y: auto;
-}
-
-.rentalRate {
-    /* outline: solid 2px red; */
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    height: 100%;
-}
-
-.clickToRent {
-    /* outline: solid 2px red; */
-    justify-content: flex-start;
-    align-items: center;
-    width: 10%;
-    height: 20%;
-    margin-left: auto;
-    margin-right: 10px;
-    background-color: #366198;
-    border-radius: 10px;
-    border: 2px solid #FFF;
-    color: #FFF;
 }
 
 
