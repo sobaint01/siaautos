@@ -25,6 +25,34 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.hamburgerCloser{
+    height: 100%;
+    width: 50px;
+    margin-left: 0;
+    /* outline: solid 2px red; */
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburgerCloser .top {
+    transition: ease-out;
+    transform: translateY(20px) rotate(45deg);
+}
+
+.hamburgerCloser .mid {
+    transition: ease-out;
+    display: none;
+}
+
+
+.hamburgerCloser .buttom {
+    transition: ease-out;
+    transform: translateY(-20px) rotate(-45deg);
+    
+    
+}
 
 .top {
     width: 100%;
@@ -179,6 +207,7 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     overflow-y: auto;
+    overflow-x: auto;
 }
 
 .cards button {
@@ -537,6 +566,85 @@ footer {
     color: #FFF;
 }
 
+a{
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+} 
+
+/* form page styling */
+
+
+
+
+.formSection{
+    /* outline: solid 2px red; */
+    height: 85vh;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form{
+    /* outline: solid 2px red; */
+    height: 100%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.formTexbox {
+    background-color: aliceblue;
+    border: solid 1px #366198;
+    border-radius: 10px;
+    margin: 10px;
+    height: 3vh;
+    width: 80%;
+}
+
+.date {
+    background-color: aliceblue;
+    border: solid 1px #366198;
+    border-radius: 10px;
+    margin: 10px;
+    height: 3vh;
+    width:fit-content;
+}
+
+
+.vehThumbnail{
+    /* outline: solid 2px red; */
+    height: 100%;
+    width: 40%;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url("../images/toyota.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+
+.submitButton {
+    margin: 10px;
+    height: 50px;
+    background-color: #366198;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -618,6 +726,17 @@ footer {
         align-items: center;
         margin-left: 0;
         margin-right: auto;
+    }
+
+    .hamburgerCloser{
+        height: 100%;
+        width: 50px;
+        margin-left: 0;
+        /* outline: solid 2px red; */
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     header {
