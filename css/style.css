@@ -15,23 +15,48 @@ body {
     background-size:contain ;
 }
 
-.hamburger {
+.primaryNav {
+    display: none;
+}
+
+/* .primaryNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    width: 50%;
+} */
+
+/* .hamburger {
     height: 100%;
     width: 50px;
     margin-left: 0;
-    /* outline: solid 2px red; */
-    display: none;
+    outline: solid 2px red; 
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
 
-.hamburgerCloser{
+} */
+
+/* .dropdownMenu{
+    width: 100%;
+    outline: 2px solid #366198;
+    margin-top: auto;
+    background-color: aliceblue;
+} */
+
+/* .dropdownMenu li {
+    width: 100%;
+} */
+
+/* .hamburgerCloser{
     height: 100%;
     width: 50px;
     margin-left: 0;
-    /* outline: solid 2px red; */
-    display: none;
+    outline: solid 2px red; 
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -51,8 +76,7 @@ body {
 .hamburgerCloser .buttom {
     transition: ease-out;
     transform: translateY(-20px) rotate(-45deg);
-    
-    
+        
 }
 
 .top {
@@ -74,7 +98,7 @@ body {
     height: 20%;
     background-color: #366198;
     border-radius: 3px;
-}
+} */
 
 .contact{
     margin: 10px;
@@ -717,9 +741,21 @@ a{
         width: 60%;
     }
 
+    .primaryNav{
+        display: flex;
+        /* outline: solid 2px red; */
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        /* margin-top: auto; */
+        width: 50%;
+        height: 35vh;
+    }
+   
+
     .hamburger {
         height: 100%;
-        width: 60px;
+        width: 50px;
         /* outline: solid 2px red; */
         display: flex;
         flex-direction: column;
@@ -727,6 +763,14 @@ a{
         align-items: center;
         margin-left: 0;
         margin-right: auto;
+    }
+
+
+    .burgers {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 20%;
     }
 
     .hamburgerCloser{
@@ -739,6 +783,60 @@ a{
         justify-content: space-between;
         align-items: center;
     }
+
+    .hamburgerCloser .top {
+        transition: ease-out;
+        transform: translateY(20px) rotate(45deg);
+    }
+    
+    .hamburgerCloser .mid {
+        transition: ease-out;
+        display: none;
+    }
+    
+    
+    .hamburgerCloser .buttom {
+        transition: ease-out;
+        transform: translateY(-20px) rotate(-45deg);
+            
+    }
+    
+    .top {
+        width: 100%;
+        height: 20%;
+        background-color: #366198;
+        border-radius: 3px;
+    }
+    
+    .mid {
+        width: 100%;
+        height: 20%;
+        background-color: #366198;
+        border-radius: 3px;
+    }
+    
+    .buttom {
+        width: 100%;
+        height: 20%;
+        background-color: #366198;
+        border-radius: 3px;
+    }
+
+    .dropdownMenu{
+        width: 100%;
+        outline: 2px solid #366198;
+        margin-top: auto;
+        background-color: aliceblue;
+        height: 80%;
+        /* margin-top: auto;  */
+        display: none;
+    }
+
+    
+    .dropdownMenu li {
+        width: 100%;
+    }
+    
 
     header {
         display: flex;
