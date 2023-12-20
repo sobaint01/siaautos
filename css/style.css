@@ -747,7 +747,7 @@ a{
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-evenly;
-        /* margin-top: auto; */
+        margin-top: auto;
         width: 50%;
         height: 35vh;
     }
@@ -828,8 +828,8 @@ a{
         margin-top: auto;
         background-color: aliceblue;
         height: 80%;
-        /* margin-top: auto;  */
-        display: none;
+        margin-top: auto; 
+        display: block;
     }
 
     
